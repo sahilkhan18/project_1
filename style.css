@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Rubik', Verdana, Geneva, Tahoma, sans-serif;
+    height:400vh;
+    background : #3b281e;                                                 /* For old browsers */
+    background: -webkit-linear-gradient(to right,#252b3b6b,#ff9966);     /* For chrome 10-25, Safari*/
+    background: linear-gradient(to right, #455c77,#ff9966);              /* For chrome 26+,W3C,Edge*/
+    text-align:center;
+    }
+    .calci{
+        border: solid 2px rgba(14, 15, 15, 0.253);
+        background-color: rgba(17, 29, 29, 0.089);
+        color: rgb(0, 2, 2);
+        text-decoration: lightseagreen;
+        font-size: 19px;
+    }
+    .calci1{
+        border: 7px rgba(67, 9, 202, 0.253);
+        background-color: rgba(17, 29, 29, 0.089);
+        color: rgb(7, 14, 14);
+        text-decoration: lightseagreen;
+        font-size: 17px;
+    }
+    .calculator{
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -40%);
+    }
+    input,button{
+        border: solid 2px lightblue;
+        outline: lightgray;
+        height: 50px;
+    }
+    input{
+        width: 300px;
+        font-size: 33px;
+        border: solid 5px black;
+        margin-bottom: -1px;
+        background-color:rgba(42, 54, 34, 0.336);
+        color: #EEEEEE;
+    }
+    button{
+        margin: -2px;
+        font-family: 'Rubik', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        background-color: #110;
+        width: 80px;
+        color: #333a4d;
+    }
+    button:active{
+        background-color: #333a4d;
+        color: #eeeeee;
+    }
